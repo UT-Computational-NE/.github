@@ -34,6 +34,12 @@ All are Python and licensed BSD-3-Clause. Install any of them from source with `
 (use `-e .[dev]` for development). Each repo's README covers testing (`pytest`), linting (`pylint`)
 and formatting (`black`).
 
+## Repository map
+
+Every repository here belongs to one category and is named by that category's rule. See
+[REPOSITORIES.md](https://github.com/UT-Computational-NE/.github/blob/main/REPOSITORIES.md)
+for each repository's category, owner and name.
+
 ## Contributing
 
 Contributions are licensed under each repository's license (BSD-3-Clause).
