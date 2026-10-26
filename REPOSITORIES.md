@@ -4,12 +4,16 @@ Every repository in this organization belongs to one category, and its name foll
 category's rule (NeutronOS ADR-037). Names are lowercase and hyphenated; a Python package
 inside keeps its snake_case import name.
 
+How to tell a library from the product: if someone could use it without NeutronOS, it is a
+library (a solver, a toolkit). If it is the system people deploy and sign in to, it is the product.
+The platform reaches a library through a separate `axiom-ext-<code>` adapter.
+
 | Category | Name rule |
 |---|---|
 | Platform extension | `axiom-ext-<code-or-capability>` (one code or backend; Axiom ADR-044) |
 | Product | `neutron-os-core`; standalone product extensions `neutron-os-<capability>` |
 | Site | `<org>-<facility>-site` |
-| Library | the package name |
+| Library | the package name (includes physics codes; usable without the product) |
 | Facility twin or tool | `<site-id>-twin`, `<site-id>-<tool>` |
 | Reference set | `progression-problems` (by scope as it grows) |
 | Workspace | `<person>-workspace` or `<person>-<topic>`; never cited by product docs |
@@ -52,7 +56,7 @@ Export-controlled repositories live only on the institutional GitLab and follow 
 | TexasAMFlowLoop | Facility twin | Wesley Lao, Cole Gentry | `tamu-flowloop-twin` |
 | bubble_flow_loop_tamu | Facility twin | Andres Fierro, Cole Gentry | owner to decide: fold into `tamu-flowloop-twin`, or archive |
 | progression_problems | Reference set | Cole Gentry | `progression-problems` |
-| syth | (owner to confirm) | Braden Pecora, Charlie Owen | by its category once confirmed |
+| syth | Library (physics code: a 1D thermal-hydraulics code for MSR analysis) | Braden Pecora, Charlie Owen | (unchanged; already conforms) |
 | stncl | (owner to confirm) | Cole Gentry | by its category once confirmed |
 | pinnicelln | (owner to confirm) | Nick Luciano | library name, or archive |
 | veracity_microapps | (owner to confirm) | Wesley Lao, Cole Gentry | archive, if no longer used |
