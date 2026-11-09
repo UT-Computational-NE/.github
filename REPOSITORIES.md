@@ -73,12 +73,12 @@ Export-controlled repositories live only on the institutional GitLab and follow 
 | albedo_demos | Archived | (former member) | Archived 2026-11-09 |
 | SHIFT_Albedo_Calc | Archived | (former member) | Archived 2026-11-09 |
 
-## Institutional GitLab (export controlled)
+## Institutional GitLab
 
-These follow the same rule. They're renamed only with their owners, at a natural break.
+Only export-controlled content needs to stay here. Everything else moves to GitHub. Ben Booth signs off on whether content is export controlled.
 
-| Repository | Category | Owner(s) | Proposed name |
-|---|---|---|---|
-| triga_digital_twin/triga_modsim_tools | Facility tool (controlled) | Nick Luciano | `ut-triga-modsim` |
-| triga_digital_twin/netl_triga_digital_twin | Program tracker | Ben Booth | (unchanged) |
-| msr_digital_twin_open | Facility twin (controlled) | Cole Gentry | to discuss with the MSR work |
+| Repository | Category | Owner(s) | Content controlled? | Note |
+|---|---|---|---|---|
+| triga_digital_twin/triga_modsim_tools | Facility tool (controlled) | Nick Luciano | Yes, pending review: drives MPACT and MCNP, holds multigroup cross-section data and facility calibration data | Proposed name `ut-triga-modsim`, renamed only with its owner |
+| triga_digital_twin/netl_triga_digital_twin | Program tracking | Ben Booth | No; some issues reference controlled details | Program tracking moved to GitHub `program-tracker`; this project is archived once the move finishes |
+| msr_digital_twin_open | Program tracking (MSR) | Cole Gentry | No; one wiki page, MSR Progression Problems, is under review | Tracking moves to GitHub under Flow Loop Twins |
