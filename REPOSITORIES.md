@@ -22,54 +22,54 @@ The platform reaches a library through a separate `axiom-ext-<code>` adapter.
 The platform itself (`axiom-os`, `axiom-appkit`) lives in the B-Tree Labs organization.
 Export-controlled repositories live only on the institutional GitLab and follow the same rule.
 
-**Status as of 2026-10-26:** proposed names are pending each owner's agreement.
-- GitHub redirects a renamed repository, so old clone URLs, issue links and badges keep
-  working.
+**Status as of 2026-11-09:** the renames below are done, except where a note says otherwise.
+- GitHub redirects a renamed repository, so old clone URLs, issue links and badges keep working.
 - Updating a local remote is optional:
   `git remote set-url origin git@github.com:UT-Computational-NE/<new-name>.git`.
 - A repository whose owner prefers its current name keeps it, and the reason is listed here.
+- New repositories follow this rule from the start.
 
 ## GitHub: UT-Computational-NE
 
-| Repository | Category | Owner(s) | Proposed name |
+| Repository | Category | Owner(s) | Note |
 |---|---|---|---|
-| neutron-os-core | Product | Ben Booth | (unchanged) |
-| neutron-os-shadow | Product extension | Nick Luciano | (unchanged; may fold into neutron-os-core, to discuss) |
-| ut-triga-site | Site | Ben Booth | (unchanged) |
-| acu-flowloop-site | Site | Ben Booth | (unchanged) |
-| vcu-flowloop-site | Site | Ben Booth | (unchanged) |
-| tamu-flowloop-site | Site | Ben Booth | (unchanged) |
-| axiom-ext-openmc | Platform extension | Ben Booth | (unchanged) |
-| axiom-ext-langgraph | Platform extension | Ben Booth | (unchanged) |
-| CoreForge | Library | Cole Gentry | `coreforge` |
-| MPACTPy | Library | Cole Gentry, Nick Luciano | `mpactpy` |
-| rocksteady | Library | Nick Luciano | (unchanged) |
-| carve | Library | Nick Luciano | (unchanged) |
-| dt_tools | Library | Ben Collins | `dt-tools` |
-| FlowLoopDT | Library | Wesley Lao | `flowloopdt` |
-| FlowForge | Library | Charlie Owen, Caleb Miller | `flowforge` |
-| NeutronicsNeuralOperators | Library | Wesley Lao | `neutronics-neural-operators` |
-| CompartmentBateman.jl | Library (Julia) | Shayan Shahbazi | (unchanged; `.jl` is Julia's convention) |
-| check-trailing-whitespace | Library (tool) | (former member) | (unchanged) |
-| netl_triga_dt | Facility twin | Cole Gentry, Ben Collins | `ut-triga-twin` |
-| netl_triga_fuel_loader | Facility tool | Nick Luciano | `ut-triga-fuel-loader` |
-| TexasAMFlowLoop | Facility twin | Wesley Lao, Cole Gentry | `tamu-flowloop-twin` |
-| bubble_flow_loop_tamu | Facility twin | Andres Fierro, Cole Gentry | owner to decide: fold into `tamu-flowloop-twin`, or archive |
-| progression_problems | Reference set | Cole Gentry | `progression-problems` |
-| syth | Library (physics code: a 1D thermal-hydraulics code for MSR analysis) | Braden Pecora, Charlie Owen | (unchanged; already conforms) |
-| stncl | (owner to confirm) | Cole Gentry | by its category once confirmed |
-| pinnicelln | (owner to confirm) | Nick Luciano | library name, or archive |
-| veracity_microapps | (owner to confirm) | Wesley Lao, Cole Gentry | archive, if no longer used |
-| neutronic_toys | Workspace | Nick Luciano | `nick-neutronic-toys` |
-| AndrewWorkSpace | Workspace | Andres Fierro Lopez | `andres-workspace` |
-| physor2026_andrew | Workspace | Andres Fierro Lopez | `andres-physor2026` |
-| EthanWorkspace | Workspace | Ethan Rozak | `ethan-workspace` |
-| msrr_depletion | Archived | (former member) | archive |
-| msrr_mpact_input_builder | Archived | (former member) | archive |
-| mpact_msrr_inputs | Archived | (former member) | archive |
-| omnibus_msrr_inputs | Archived | (former member) | archive |
-| albedo_demos | Archived | (former member) | archive |
-| SHIFT_Albedo_Calc | Archived | (former member) | archive |
+| neutron-os-core | Product | Ben Booth |  |
+| neutron-os-shadow | Product extension | Nick Luciano | May fold into neutron-os-core, to discuss |
+| ut-triga-site | Site | Ben Booth |  |
+| acu-flowloop-site | Site | Ben Booth |  |
+| vcu-flowloop-site | Site | Ben Booth |  |
+| tamu-flowloop-site | Site | Ben Booth |  |
+| axiom-ext-openmc | Platform extension | Ben Booth |  |
+| axiom-ext-langgraph | Platform extension | Ben Booth |  |
+| coreforge | Library | Cole Gentry | Renamed from `CoreForge` |
+| mpactpy | Library | Cole Gentry, Nick Luciano | Renamed from `MPACTPy` |
+| rocksteady | Library | Nick Luciano |  |
+| carve | Library | Nick Luciano | Owner notes it may become a workspace, `nick-carve` |
+| dt-tools | Library | Ben Collins | Renamed from `dt_tools` |
+| flowloopdt | Library | Wesley Lao | Renamed from `FlowLoopDT` |
+| flowforge | Library | Charlie Owen, Caleb Miller | Renamed from `FlowForge` |
+| neutronics-neural-operators | Library | Wesley Lao | Renamed from `NeutronicsNeuralOperators` |
+| CompartmentBateman.jl | Library (Julia) | Shayan Shahbazi | `.jl` is Julia's convention |
+| check-trailing-whitespace | Library (tool) | (former member) |  |
+| netl_triga_dt | Facility twin | Cole Gentry, Ben Collins | Rename held: `ut-triga-twin` is now a separate repository; the two are to be reconciled |
+| ut-triga-fuel-loader | Facility tool | Nick Luciano | Renamed from `netl_triga_fuel_loader` |
+| tamu-flowloop-twin | Facility twin | Wesley Lao, Cole Gentry | Renamed from `TexasAMFlowLoop` |
+| bubble_flow_loop_tamu | Facility twin | Andres Fierro, Cole Gentry | Owner to decide: fold into `tamu-flowloop-twin`, or archive |
+| progression-problems | Reference set | Cole Gentry | Renamed from `progression_problems` |
+| syth | Library (physics code: a 1D thermal-hydraulics code for MSR analysis) | Braden Pecora, Charlie Owen |  |
+| stncl | (owner to confirm) | Cole Gentry | Owner to confirm category |
+| pinnicelln | Archived | Nick Luciano | Archived 2026-11-09 |
+| veracity_microapps | (owner to confirm) | Wesley Lao, Cole Gentry | Owner to confirm: archive if no longer used |
+| nick-neutronic-toys | Workspace | Nick Luciano | Renamed from `neutronic_toys` |
+| andres-workspace | Workspace | Andres Fierro Lopez | Renamed from `AndrewWorkSpace` |
+| andres-physor2026 | Workspace | Andres Fierro Lopez | Renamed from `physor2026_andrew` |
+| ethan-workspace | Workspace | Ethan Rozak | Renamed from `EthanWorkspace` |
+| msrr_depletion | Archived | (former member) | Archived 2026-11-09 |
+| msrr_mpact_input_builder | Archived | (former member) | Archived 2026-11-09 |
+| mpact_msrr_inputs | Archived | (former member) | Archived 2026-11-09 |
+| omnibus_msrr_inputs | Archived | (former member) | Archived 2026-11-09 |
+| albedo_demos | Archived | (former member) | Archived 2026-11-09 |
+| SHIFT_Albedo_Calc | Archived | (former member) | Archived 2026-11-09 |
 
 ## Institutional GitLab (export controlled)
 
