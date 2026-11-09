@@ -75,10 +75,10 @@ Export-controlled repositories live only on the institutional GitLab and follow 
 
 ## Institutional GitLab
 
-Only export-controlled content needs to stay here. Everything else moves to GitHub. Ben Booth signs off on whether content is export controlled.
+Only export-controlled content needs to stay here, and none of the projects below is controlled as of 2026-11-09. Everything else moves to GitHub. Ben Booth signs off on whether content is export controlled.
 
 | Repository | Category | Owner(s) | Content controlled? | Note |
 |---|---|---|---|---|
-| triga_digital_twin/triga_modsim_tools | Facility tool (controlled) | Nick Luciano | Yes, pending review: drives MPACT and MCNP, holds multigroup cross-section data and facility calibration data | Proposed name `ut-triga-modsim`, renamed only with its owner |
+| triga_digital_twin/triga_modsim_tools | Facility tool | Nick Luciano | No (Ben Booth, 2026-11-09) | Can move to GitHub with its owner; proposed name `ut-triga-modsim` |
 | triga_digital_twin/netl_triga_digital_twin | Program tracking | Ben Booth | No; some issues reference controlled details | Program tracking moved to GitHub `program-tracker`; this project is archived once the move finishes |
 | msr_digital_twin_open | Program tracking (MSR) | Cole Gentry | No; one wiki page, MSR Progression Problems, is under review | Tracking moves to GitHub under Flow Loop Twins |
