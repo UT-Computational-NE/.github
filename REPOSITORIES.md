@@ -34,6 +34,8 @@ Export-controlled repositories live only on the institutional GitLab and follow 
 | Repository | Category | Owner(s) | Note |
 |---|---|---|---|
 | neutron-os-core | Product | Ben Booth |  |
+| program-tracker | Program tracker | Ben Booth | Program items, schedule and the program wiki; nothing export-controlled |
+| ut-triga-twin | Facility twin | Ben Booth | Twin code on NeutronOS dtwin; to be reconciled with `netl_triga_dt` |
 | neutron-os-shadow | Product extension | Nick Luciano | May fold into neutron-os-core, to discuss |
 | ut-triga-site | Site | Ben Booth |  |
 | acu-flowloop-site | Site | Ben Booth |  |
