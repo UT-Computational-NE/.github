@@ -79,6 +79,6 @@ Only export-controlled content needs to stay here, and none of the projects belo
 
 | Repository | Category | Owner(s) | Content controlled? | Note |
 |---|---|---|---|---|
-| triga_digital_twin/triga_modsim_tools | Facility tool | Nick Luciano | No (Ben Booth, 2026-11-09) | Can move to GitHub with its owner; proposed name `ut-triga-modsim` |
+| triga_digital_twin/triga_modsim_tools | Facility tool | Nick Luciano | No (Ben Booth, 2026-11-09). The codes it depends on (MPACT, MCNP) are controlled and are not part of it | Can move to GitHub with its owner; proposed name `ut-triga-modsim` |
 | triga_digital_twin/netl_triga_digital_twin | Program tracking | Ben Booth | No; some issues reference controlled details | Program tracking moved to GitHub `program-tracker`; this project is archived once the move finishes |
 | msr_digital_twin_open | Program tracking (MSR) | Cole Gentry | No; one wiki page, MSR Progression Problems, is under review | Tracking moves to GitHub under Flow Loop Twins |
